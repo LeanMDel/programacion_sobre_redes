@@ -1,0 +1,6 @@
+[2026-07-15T00:07:20.084771400] INFO: Estandarización y encriptación inicial completadas con éxito.
+[2026-07-15T00:07:20.168744800] ERROR: Error al cargar partidas desde archivo CSV encriptado
+java.lang.Exception: No se pudo recuperar la clave AES.
+	at com.examen.GestorPartidas.cargar(GestorPartidas.java:71)
+	at com.examen.Main.main(Main.java:24)
+--------------------------------------------------
